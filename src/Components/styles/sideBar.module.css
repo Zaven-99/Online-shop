@@ -1,0 +1,38 @@
+.sideBar{
+    position: absolute;
+    height: 30em;
+    background: DodgerBlue;
+    margin-top: 1em;
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 5em
+}
+.sideBar p {
+    color:tan;
+}
+.sideBarItem{
+    color:Ivory;
+    font-size: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-top: 5px;
+}
+.sideBarItem ul {
+    padding-left: 0;
+}
+.sideBarItem li {
+    margin-top: 20px;
+}
+.sideBarItem li a:hover {
+    color:tan;
+ }
+.active::before{
+    content: '';
+    background: white;
+    height: 30px;
+    display: block;
+    width: 2px;
+    position: absolute;
+    left: 0;
+   }
+

@@ -1,0 +1,12 @@
+.card{
+    display: grid;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.card-inner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 24em);
+    gap: 40px;
+}

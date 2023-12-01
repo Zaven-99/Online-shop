@@ -1,0 +1,28 @@
+.carousel {
+    width: 87em;
+    height: 10em;
+    position: absolute;
+    top: 33em;
+    left: 5em;
+}
+.brands{
+    background-color: tan;
+    height: 9em;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding-left: 15em;
+    border-radius:5px;
+    margin-bottom: 5em;
+}
+.brands-item{
+    width: 50px;
+    border-radius: 5px;
+}
+.brands-item:hover{
+    opacity: .7;
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px;
+    
+}

@@ -1,0 +1,73 @@
+.footerContainer{
+    background: #333;
+
+}
+
+.footerNavMenu{
+    margin-top: 45em;
+    display: flex;
+    font-size: 16px;
+    gap: 10em;
+    padding-left: 5em;
+    padding-top:4em;
+    padding-bottom: 2em;
+}
+.title{
+    color: ivory;
+    text-align: start;
+}
+.footerNavMenu div ul{
+    /* color: ivory; */
+    text-align: start;
+}
+.footerNavMenu div ul li{
+     margin-top: 10px;
+    /* color: ivory; */
+
+}
+.workTime{
+    color: ivory;
+}
+.footerNavMenu div ul li:hover{
+    color:DodgerBlue;
+}
+.footerSecondBlock ul {
+    display: flex;
+    gap: 5em;
+}
+ .call{
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+ }
+ .itemLink {
+    color:ivory;
+ }
+ .appStore:hover{
+     box-shadow: 0px 0px 10px;
+     width: 132px;
+    border-radius: 25%;
+    transition: 1s;
+    transform: scale(1.1);
+}
+.appleStore{
+    width: 120px;
+    border-radius: 25%;
+}
+.appleStore:hover{
+    box-shadow: 0px 0px 10px;
+    transition: 1s;
+    transform: scale(1.1);
+}
+.rights{
+    background: #333;
+    color: aliceblue;
+    padding-bottom: 1em;
+}
+.hr{
+    margin: 1rem 0;
+    color: aliceblue;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
+}

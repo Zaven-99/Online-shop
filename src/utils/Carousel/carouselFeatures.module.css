@@ -1,0 +1,85 @@
+.item{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+.item-1{
+    background-image:  url(https://img.freepik.com/free-photo/hand-holding-discount-voucher-percentage-online-shopping-symbol-icon-cartoon-3d-rendering_56104-1340.jpg?w=900&t=st=1700330860~exp=1700331460~hmac=874dd7cf4542ee1a162dc3b2c62367a4e3d803df85cd6b28e6b3445953d4e3dc);
+     background-size: cover;
+     /* background-repeat: no-repeat; */
+
+}
+.stocksTitle{
+    color: #332;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    opacity: .9;
+    margin-bottom: 8px;
+    position: relative;
+    top: 1em;
+}
+.stocksContent{
+    color: #333;
+    opacity: .9;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    z-index: 5;
+    text-align: start;
+    left: 1em;
+    top: 1em;
+}
+.item-2{
+    background-image: url(https://img.freepik.com/free-photo/view-of-3d-laptop-device-with-screen-and-keyboard_23-2150714085.jpg?w=740&t=st=1700331235~exp=1700331835~hmac=2a93cf094ca99e3e1a06b421ae1a5ffdcde9db2070366155bb1de014f471170a);
+    background-size: cover;
+    background-position-y: center;
+}
+.assemblePcTitle{
+    color: #332;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    opacity: .9;
+    margin-bottom: 8px;
+    position: relative;
+    top: 1em;
+}
+.assemblePcContent{
+    color: #333;
+    opacity: .9;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    z-index: 5;
+    text-align: start;
+    left: 1em;
+    top: 1em;
+}
+.item-3{
+    background-image:url(https://img.freepik.com/free-photo/clipboard-with-checklist-paper-note-icon-or-symbol-on-purple-background-3d-rendering_56104-1491.jpg?w=900&t=st=1700331786~exp=1700332386~hmac=250cd4d7e93ec50a4dead4be67a5b46c1dfeb867c32649a609b7e91c1f2beb84);
+    background-position-y: center;
+    background-size:cover;
+}
+.serviceTitle{
+    color: #332;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    opacity: .9;
+    margin-bottom: 8px;
+    position: relative;
+    top: 1em;
+}
+.serviceContent{
+    color: #333;
+    opacity: .9;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    z-index: 5;
+    text-align: start;
+    left: 1em;
+    top: 1em;
+}

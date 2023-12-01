@@ -1,0 +1,31 @@
+.card-container{
+    display: grid;
+    justify-content: center;
+    margin-top: 2em;
+}
+.card-container__inner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 24em);
+    gap: 40px;
+ }
+
+.getStatus{
+    background: white;
+    width: 25em;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 6em;
+    box-shadow: 0px 0px 5px;
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.getStatus p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

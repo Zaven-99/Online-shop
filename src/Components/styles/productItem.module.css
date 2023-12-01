@@ -1,0 +1,103 @@
+.card{
+    width: 25em;
+    height: 27em;
+     justify-content: center;
+    display: flex;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 15px;
+    cursor: pointer;
+ }
+ 
+.card-inner{
+    background: white;
+    width: 20em;
+    height: 20em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px;
+    margin-top: 2em;
+    position: relative;
+}
+.productImg{
+    width: 200px;  
+    height: 150px;  
+    object-fit: cover;  
+    object-position: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+ }
+
+.cardTitle{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: DodgerBlue;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.cardPrice{
+    background-color: DodgerBlue;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.cardRaiting{
+    background-image: url(https://img.freepik.com/premium-vector/3d-glossy-yellow-five-stars-rating_169241-5675.jpg?w=1380);
+     padding: 10px;
+    box-sizing: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+     margin: 0 auto;
+    width: 12em;
+    display:block;
+}
+.cardRaiting span {
+    display: flex;
+    justify-content: end;
+}
+
+.addToCart:hover{
+     cursor: pointer;
+ 
+}
+
+.addToCart-or-addTofavourite{
+    display: flex;
+    margin-top: 14.5em;
+ }
+.addToCart{
+    width: 10em;
+    background-color: white;
+    color: DodgerBlue;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight:900;
+}
+.addTofavourite{
+    width: 10em;
+    background-color: white;
+    color: DodgerBlue;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px;
+     
+}
+.addedToCart {
+    justify-content: space-around;
+    transform: scale(1.05);
+}
+
+.favourite{
+    width: 30px;
+}
+  

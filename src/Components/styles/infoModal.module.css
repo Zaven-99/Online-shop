@@ -1,0 +1,13 @@
+.infoModal{
+    background: #333;
+    border-radius: 8px;
+     position: fixed;
+    top: 11em;
+    z-index: 150;
+    width: 20em;
+    height: 3em;
+    left: 8.2em;
+}
+.InfoValid{
+    color: ivory;
+}

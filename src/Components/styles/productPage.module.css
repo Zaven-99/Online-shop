@@ -1,0 +1,18 @@
+.productPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px;
+    margin: 2em 5em 2em 5em;
+    padding: 2em;
+  }
+.description{
+    font-size: 30px;
+    width: 500px;
+    color: dodgerblue;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}

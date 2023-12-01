@@ -1,0 +1,62 @@
+.header {
+    background-color: DodgerBlue;
+    height: 5em;
+    display: flex;
+    align-items:center;
+    margin-left: 5em;
+    margin-right: 5em;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+     padding-top: 1em;
+
+}
+.nameOfShop{
+    font-size: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: LightSteelBlue;
+     transition: transform 0.8s ease;
+  }
+  .nameOfShop:hover{
+    opacity: 0.8;
+    transition: 1s;
+    transform: scale(1.1);
+  }
+
+  .menu{
+    display: flex;
+     align-items:center;
+     margin: 0 auto;
+   }
+  .menuNavigation{
+    display: flex;
+    gap: 30px;
+  }
+  .menuNavigation .menunavigationItem {
+    color:Ivory;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+  .menuNavigation .menunavigationItem:hover {
+     color:tan;
+  }
+  .forbuyers{
+    display: flex;
+    align-items:center;
+    gap:5px;
+    color:Ivory;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+  .forBuyersLi{
+    position: relative;
+  }
+  .arrowDown{
+    width: 10px;
+  }
+  .active::after{
+    content:'';
+    background: white;
+    height: 2px;
+    display: block;
+   }

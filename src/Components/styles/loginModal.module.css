@@ -1,0 +1,153 @@
+.loginModal{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0px 0px 2px;
+  width: 500px;
+  height: 500px;
+  z-index: 20;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginModal p {
+    color: #333;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.loginModal input{
+  background: transparent;
+    border: none;
+    box-sizing: border-box;
+    color: #4e4e4e;
+    font-family: PT Sans,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 100%;
+    left: 0;
+    line-height: inherit;
+    outline: none;
+    padding: 18px 0 0 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.loginModal label{
+  color: #8c8c8c;
+    font-size: 16px;
+    left: 0;
+    letter-spacing: .3px;
+    padding: 0 20px;
+    pointer-events: none;
+    position: absolute;
+    top: 20px;
+    transition: top .2s,font-size .2s;
+    z-index: 2;
+}
+
+.active label{
+  font-size: 14px;
+  top: 5px;
+}
+.info{
+  align-items: center;
+    background: inherit;
+    background-color: transparent;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    width: 20%;
+    z-index: 1001;
+}
+.info img {
+  cursor: pointer;
+}
+.info img:hover {
+  opacity: .5;
+}
+.inputSection{
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: PT Sans,Helvetica,Arial,sans-serif;
+    height: 64px;
+    line-height: 1.42857;
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+
+.signInBtn button{
+    background: DodgerBlue;
+    padding: 10px 150px 10px 150px;
+    border-radius: 5px;
+    border: 1px solid Ivory;
+    margin-top: 15px;
+    color: ivory;
+}
+.logInBtn{
+  text-align: start;
+  margin-top: 10px;
+  display: flex;
+  align-items:center;
+  position: absolute;
+}
+.signInBtn:hover{
+  opacity: .5;
+}
+.logInBtn:hover{
+  opacity: .5;
+}
+.key{
+  position: absolute;
+  width: 15px;
+  left: 4.2em
+    
+}
+.key img{
+  align-items: center;
+    display: flex;
+
+}
+.logInBtn button{
+  margin-left: 4em;
+  background:#bdbdbd;
+  padding: 10px 23px 10px 23px;
+  border-radius:5px;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 15;
+   }
+   .anotherWaylogin{
+    margin-top: 50px;
+    text-align: start;
+    margin-left: 4em;
+   }
+   .rights{
+    font-size: small;
+    text-align: start;
+    margin-left: 4em;
+    margin-top: 10em;
+    margin-right: 1em;
+   }

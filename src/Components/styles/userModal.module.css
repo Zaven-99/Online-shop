@@ -1,0 +1,60 @@
+.userModal{
+    background-color: DodgerBlue;
+    width: 320px;
+    height: min-content;
+    position: absolute;
+    right: 5em;
+    top: 8em;
+    border-radius:5px;
+    padding: 5px;
+    padding-bottom: 20px;
+     box-shadow:0px 0px 3px;
+     z-index:15;
+   }
+ 
+.userModal ul{
+margin-top: 10px;
+}
+
+.userModal li a{
+color:Ivory;
+}
+
+.userModal li {
+margin-top: 10px;
+text-align: start;
+padding-left: 2em;
+}
+
+.userModal li a:hover{
+    color:tan;
+}
+
+.userModal span{
+    position: absolute;
+    right: 1em;
+    cursor: pointer;
+ }
+
+.userModal span:hover{
+    opacity: .5;
+}
+
+.title {
+    color:Tan	;
+    margin-top: 1em;
+    text-align: start;
+    padding-left: 2em;
+    font-weight: 700;
+    font-size: 20px;
+}
+.logIn{
+    background-color:Ivory;
+    padding:10px 105px 10px 105px;
+    border-radius:5px;
+    border: 1px solid Ivory;
+    margin-top: 15px;
+}
+.logIn:hover{
+    opacity: .5;
+}

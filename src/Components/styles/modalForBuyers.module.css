@@ -1,0 +1,23 @@
+.modalForBuyers{
+    width: 220px;
+    height: min-content;
+    position: absolute;
+    left: -40px;
+    top: 30px;
+    background: white;
+    box-shadow: 0px 0px 2px;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 15;
+}
+.modalForBuyers ul li {
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.modalForBuyers ul li a{
+    color:SlateGrey;
+}
+.modalForBuyers ul li a:hover{
+    color:tan;
+}

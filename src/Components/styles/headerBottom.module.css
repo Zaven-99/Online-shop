@@ -1,0 +1,111 @@
+.filter{
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+    border-radius: 12px;
+    background: white ;
+    box-shadow: 0px 0px 2px;
+    padding: 10px;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.input{
+    background-color: white;
+    width: 20em;
+    display: flex;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.input input{
+    text-align: center;
+}
+ 
+ 
+.favourite{
+     padding: 10px;
+    right: 32em;
+    cursor: pointer;
+}
+.favourite:hover{
+    background-color:Gainsboro	;
+    border-radius:5px;
+    /* transition: 1s; */
+    box-shadow:0px 0px 10px;
+    transform: scale(1.1);
+}
+.cart{
+     
+    right: 26em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    z-index: 15;
+}
+.cart-button{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+
+}
+.cart-button:hover{
+    background-color:Gainsboro	;
+    border-radius:5px;
+    box-shadow:0px 0px 10px;
+    transform: scale(1.1);
+    
+}
+.userLogin{
+     padding: 10px;
+    right: 22em;
+    cursor: pointer;
+}
+.userLogin:hover{
+    background-color:Gainsboro	;
+    border-radius:5px;
+     box-shadow:0px 0px 10px;
+    transform: scale(1.1);
+}
+.contacts{
+    padding-left: 10em;
+    cursor: pointer;
+    opacity: .9;
+}
+.workTime{
+    background: #333;
+    color: #fff;
+    border-radius:5px;
+    position: absolute;
+    top: 11em;
+    left: 16em;
+    padding: 10px;
+    z-index: 8;
+}
+.iconsBlock{
+    align-items: center;
+    display: flex;
+    padding-right: 10em;
+    gap:30px;
+}
+.productsCount{
+    color: dodgerblue;
+    font-size: x-large;
+    font-weight: 700;
+}
+.cartContent{
+    position: absolute;
+    background: white;
+    box-shadow: 0px 0px 7px;
+    height: min-content;
+    padding: 15px;
+    width: 30em;
+    top: 12em;
+    right: 9em;
+    z-index: 17;
+}
+.close-modal{
+    display: flex;
+    justify-content: end;
+}

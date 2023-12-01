@@ -1,0 +1,33 @@
+.searchResults{
+    position: absolute;
+    box-shadow: 0px 0px 1px;
+    padding: 20px;
+    top: 11em;
+    z-index: 55;
+    left: 25em;
+    background: white;
+    width: 40em;
+}
+
+.card{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-around;
+     border-radius: 5px;
+    background: whitesmoke;
+    box-shadow: 0px 0px 3px;
+    padding: 5px;
+}
+.productImg{
+    width: 50px;
+}
+.cardTitle span{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: dodgerblue;
+
+}
+.cardPrice span{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: dodgerblue;
+}
